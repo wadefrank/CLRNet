@@ -2,10 +2,15 @@ torch==1.8.0
 torchvision==0.9.0
 pandas
 addict
-sklearn
+scipy==1.5.4
+# sklearn
+lazy_loader==0.1
+numpy==1.19.5
+PyWavelets==1.1.1
+scikit-learn==0.24.2
 opencv-python
 pytorch_warmup
-scikit-image
+scikit-image==0.18.3
 tqdm
 p_tqdm
 imgaug>=0.4.0
@@ -18,3 +23,5 @@ mmcv==1.2.5
 albumentations==0.4.6
 pathspec
 ptflops
+scipy==1.6.3
+
